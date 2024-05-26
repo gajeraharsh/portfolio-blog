@@ -35,7 +35,7 @@ function Header() {
   const isActiveClasses = `absolute top-[30px] left-[-50px] bg-[#333] w-[180px] py-[25px] ${isActive && 'hidden'} ` 
   
   return (
-    <header className="w-full flex justify-center">
+    <header className="w-full flex justify-center fixed top-0 h-16 lg:h-[125px] bg-white ">
       <div className="lg:w-[65%] flex w-full py-5 px-3 justify-between lg:py-10">
         <div className="">
           <h2 className="font-sans text-2xl lg:text-3xl">HARSH</h2>
