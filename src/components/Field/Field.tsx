@@ -11,7 +11,7 @@ function Field({ item, index }: any) {
             defaultValue={item.value}
             placeholder={item.placeholder}
             name={item.name}
-            rows="6"
+            rows={6}
           ></textarea>
         </div>
       </div>
